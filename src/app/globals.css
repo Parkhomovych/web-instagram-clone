@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+:root {
+  --red: rgb(207, 33, 66);
+  --orange: rgb(230, 173, 77);
+}
+
+.bg-ig-red {
+  background-color: var(--red);
+}
+.bg-ig-orange {
+  background-color: var(--orange);
+}
